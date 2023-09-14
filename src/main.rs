@@ -8,6 +8,7 @@ fn read_csv_file(fname: &Path) -> Result<(), Box<dyn Error>> {
         let record = result?;
         println!("{:?}", record);
     }
+    
     Ok(())
 }
 
